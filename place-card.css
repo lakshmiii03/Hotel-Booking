@@ -1,0 +1,37 @@
+.place-card-container{
+ background-color:white;
+ display: flex;
+ justify-content:flex-start;
+ padding-left: 50px;
+
+}
+
+.place-card{
+ width: 350px;
+ margin-right: 20px;
+ margin-bottom: 50px;
+ background-color:cyan;
+margin-top: 50px;
+border-radius:10px;
+
+}
+.place-card:hover{
+ transform:scale(1.05) ;
+}
+
+.place-card > .header-img > img{
+ max-width:100%;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+}
+
+.info >p{
+ font-family:cursive;
+font-size:18px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.name{
+ font-size:25px;
+ font-weight:bold;
+}
